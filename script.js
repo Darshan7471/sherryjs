@@ -38,3 +38,9 @@ console.table({b,c})
 
 // kuch kuch browsers bas console.info thode aapko dikhate hai
 // kuch kuch console.log bhi dikhate hai
+
+// promt alert
+
+prompt("enter your age")
+let age = prompt("enter your age")
+console.log(age)
