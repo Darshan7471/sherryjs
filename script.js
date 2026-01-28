@@ -41,6 +41,27 @@ console.table({b,c})
 
 // promt alert
 
-prompt("enter your age")
-let age = prompt("enter your age")
-console.log(age)
+let phone = prompt("enter your phone number");
+let phoneSTring = `now you have own ${phone} this mobile number`;
+
+
+// prompt("enter your age")
+// let age = prompt("enter your age")
+console.log(phoneSTring)
+
+// string = "content"
+// tem[plate string = `content ${variable} content`
+// split = "string".split(" ")
+// replace = "string".replace("old","new")
+// replaceAll = "string".replaceAll("old","new")
+// includes = "string".includes("searching content")
+
+// statements and expressions
+// statment ek aisa code jo answer dede
+// ek complete line ka code kiske last me ; lagta hai
+// expression ek aisa code jo value deta hai
+
+ var a = 10; // statment
+
+ 12 + 13 // expression
+

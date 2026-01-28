@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    assignment page
+
+    <div id="message"></div>
+    <button id="confirmBtn">confirm</button>
+
+     <script>
+        let userName = prompt("ENter your name");
+        let UserEmail = prompt("Enter Email");
+        let UserMobile = prompt("enter mobile number");
+        let message = `welcome <strong>${userName}</strong>, your email is ${UserEmail} and your mobile number is ${UserMobile}`;
+       document.getElementById("message").inngerHTML = message;
+// try only
+        document.getElementById("confirmBtn").onclick = function () {
+  alert(`Are you sure?\n${userName}, apka information hai?`);
+};
+     </script>
+</body>
+</html>
