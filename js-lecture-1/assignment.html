@@ -7,17 +7,15 @@
 </head>
 <body>
     
-    assignment page
-
-    <div id="message"></div>
+    <h1>Assignment page</h1>
+    <div id="messages"></div>
     <button id="confirmBtn">confirm</button>
-
      <script>
         let userName = prompt("ENter your name");
         let UserEmail = prompt("Enter Email");
         let UserMobile = prompt("enter mobile number");
         let message = `welcome <strong>${userName}</strong>, your email is ${UserEmail} and your mobile number is ${UserMobile}`;
-       document.getElementById("message").inngerHTML = message;
+       document.getElementById("messages").innerHTML = message;
 // try only
         document.getElementById("confirmBtn").onclick = function () {
   alert(`Are you sure?\n${userName}, apka information hai?`);
