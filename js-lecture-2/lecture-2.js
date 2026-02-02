@@ -81,5 +81,3 @@ let values = prompt("Enter your favurite fruit");
 let fruits = ["apple", "banana", "orange",values]
 
 console.log(fruits[3], "is your food");
-
-
