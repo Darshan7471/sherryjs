@@ -50,7 +50,7 @@ let phoneSTring = `now you have own ${phone} this mobile number`;
 console.log(phoneSTring)
 
 // string = "content"
-// tem[plate string = `content ${variable} content`
+// template string = `content ${variable} content`
 // split = "string".split(" ")
 // replace = "string".replace("old","new")
 // replaceAll = "string".replaceAll("old","new")
